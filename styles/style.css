@@ -1,0 +1,162 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* share styles  */
+.btn-styles{
+  color: #FFFFFF;
+  background: #FF136F;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+/* header styles  */
+.nav-container{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 150px;
+}
+.search-bar{
+  position: relative;
+}
+.search-bar input{
+  width: 370px;
+  padding: 12px 20px;
+  border-radius: 66px;
+  border: none;
+  background: #F1F1F1;
+}
+.search-bar i{
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  color: #CCCCCC;
+}
+.nav-container ul{
+  display: flex;
+  gap: 20px;
+  margin-top: 0;
+}
+.nav-container ul li{
+  list-style: none;
+}
+.nav-container ul li a{
+  text-decoration: none;
+  color: #707070;
+}
+.banner-container{
+  display: flex;
+  background: #FEEAE9;
+  border-radius: 10px;
+  margin: 0 110px;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-container .banner-text{
+  padding: 40px;
+  width: 550px;
+}
+.banner-text h1{
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+.banner-text p{
+  color: #4E4E4E;
+}
+.banner-text .rate{
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #FF136F;
+  font-size: 25px;
+  font-weight: 500;
+}
+.banner-container img{
+  width: 400px;
+  height: 370px;
+  padding: 40px;
+}
+
+/* main area styles  */
+.timeline-Categories{
+  max-width: 1080px;
+  margin-left: 12%;
+  margin-top: 50px;
+}
+.timeline-Categories h2{
+  margin-bottom: 20px;
+}
+.timeline-ads{
+  display: flex;
+  gap: 1%;
+}
+.wbs-div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-basis: 29%;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: #FFFFFF;
+}
+.watch{
+  background: #FFD019;
+}
+.bag{
+  background: #FF136F;
+}
+.shoes{
+  background: #3F07F8;
+}
+.wbs-div img{
+  width: 80px;
+  height: 80px;
+}
+.gray-color-section{
+  background: #F4F4F4;
+  padding: 50px 160px;
+  margin-top: 50px;
+}
+.shoes-category{
+  display: flex;
+  justify-content: space-between;
+}
+.title{
+  display: flex;
+  justify-content: space-between;
+}
+.margin{
+  margin-top: 70px;
+}
+.see-all{
+  color: #FF9D00;
+}
+.shoes-rate{
+  width: 300px;
+  text-align: center;
+  padding: 20px;
+  background: #FFFFFF;
+  margin: 10px;
+  margin-left: 0;
+  border-radius: 10px;
+}
+.shoes-rate img{
+  width: 280px;
+  height: 200px;
+}
+.rate{
+  margin: 15px;
+  font-weight: 700;
+}
+.shoes-rate h3{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.btn-black{
+  background: black;
+}
+
