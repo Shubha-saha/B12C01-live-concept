@@ -160,3 +160,25 @@
   background: black;
 }
 
+/* Footer area styles  */
+.touch-more{
+  text-align: center;
+  margin: 50px 100px;
+  background: #FFF2F1;
+  padding: 100px;
+  border-radius: 10px;
+}
+.touch-more input{
+  width: 300px;
+  padding: 10px 20px;
+  border: none;
+}
+.touch-more button{
+  position: relative;
+  right: 5px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.touch-more h2, .touch-more p{
+  margin-bottom: 10px;
+}
